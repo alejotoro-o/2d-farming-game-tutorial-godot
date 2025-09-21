@@ -1,8 +1,8 @@
 [gd_scene load_steps=54 format=3 uid="uid://cuq3dliyqmhxa"]
 
 [ext_resource type="Script" uid="uid://dridk06q2m7rw" path="res://scenes/characters/player/player.gd" id="1_6avc5"]
-[ext_resource type="Texture2D" uid="uid://rg8ulgdmyy8f" path="res://assets/game/Characters/Basic Charakter Actions.png" id="1_t61fv"]
-[ext_resource type="Texture2D" uid="uid://l6ruvmavpqn6" path="res://assets/game/Characters/Basic Charakter Spritesheet.png" id="2_686vu"]
+[ext_resource type="Texture2D" uid="uid://rg8ulgdmyy8f" path="res://assets/game/Characters/basic_character_actions.png" id="1_t61fv"]
+[ext_resource type="Texture2D" uid="uid://l6ruvmavpqn6" path="res://assets/game/Characters/basic_character_spritesheet.png" id="2_686vu"]
 [ext_resource type="Script" uid="uid://dorkw4jfrtavn" path="res://scripts/state_machine/node_state_machine.gd" id="3_hss88"]
 [ext_resource type="Script" uid="uid://bipquqakwgltl" path="res://scenes/characters/player/idle_state.gd" id="4_qd3e3"]
 [ext_resource type="Script" uid="uid://bm6ow2oeadins" path="res://scenes/characters/player/walk_state.gd" id="5_qd3e3"]
@@ -402,6 +402,7 @@ height = 10.0
 radius = 3.0
 
 [node name="Player" type="CharacterBody2D"]
+y_sort_enabled = true
 collision_layer = 2
 script = ExtResource("1_6avc5")
 current_tool = 1

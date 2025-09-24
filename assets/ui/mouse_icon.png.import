@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byrgydwgn6bou"
-path="res://.godot/imported/fences.png-355ce4c5e029f671ca1ab360042c2b3c.ctex"
+uid="uid://dckej5ghuvt55"
+path="res://.godot/imported/mouse_icon.png-67f27c0f39c79c6579b122cae0d75b42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/game/Tilesets/fences.png"
-dest_files=["res://.godot/imported/fences.png-355ce4c5e029f671ca1ab360042c2b3c.ctex"]
+source_file="res://assets/ui/mouse_icon.png"
+dest_files=["res://.godot/imported/mouse_icon.png-67f27c0f39c79c6579b122cae0d75b42.ctex"]
 
 [params]
 

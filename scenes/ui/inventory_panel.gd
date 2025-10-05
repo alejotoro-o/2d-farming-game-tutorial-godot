@@ -9,7 +9,7 @@ extends PanelContainer
 
 func _ready() -> void:
 	
-	InventoryManager.inventory_change.connect(on_inventory_change)
+	InventoryManager.inventory_changed.connect(on_inventory_change)
 
 func on_inventory_change() -> void:
 	

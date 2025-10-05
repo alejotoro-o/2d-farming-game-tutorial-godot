@@ -2,7 +2,7 @@ extends Node
 
 var inventory: Dictionary = Dictionary()
 
-signal inventory_change
+signal inventory_changed
 
 func add_collectable(collectable_name: String) -> void:
 	
@@ -13,4 +13,4 @@ func add_collectable(collectable_name: String) -> void:
 	else:
 		inventory[collectable_name] += 1
 	
-	inventory_change.emit()
+	inventory_changed.emit()

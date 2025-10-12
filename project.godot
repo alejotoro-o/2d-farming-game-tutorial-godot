@@ -13,7 +13,11 @@ config_version=5
 config/name="2d farming game"
 run/main_scene="uid://bfpwdhfjteovv"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://dcxipbv2h3iuq"
+
+[audio]
+
+buses/default_bus_layout="uid://b6opprtpii2xg"
 
 [autoload]
 

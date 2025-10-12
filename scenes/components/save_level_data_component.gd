@@ -6,7 +6,6 @@ var save_game_data_path: String = "user://game_data/"
 var save_file_name: String = "save_%s_game_data.tres"
 var game_data_resource: SaveGameDataResource
 
-
 func _ready() -> void:
 	add_to_group("save_level_data_component")
 	level_scene_name = get_parent().name
